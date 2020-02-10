@@ -5,24 +5,20 @@ body
 }
 #header
 {
-    background-color: darkblue;
+    background-color: gray;
     color: black;
     display: inline-block;
     width: 100%;
-    background-color: rgba(0,0,0,0.2);
-    color: white;
-
 }
 #menu
 {
     display: inline-block;
     float: left;
     position: relative;
-    background-color: darkcyan;
-    color: white;
+    background-color: gray;
+    color: black;
     width: 300px;
     height: 100%;
-    background-color: rgba(0,0,0,0.2);
 }
 a
 {
