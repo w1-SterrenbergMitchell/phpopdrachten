@@ -6,7 +6,7 @@
     <link href="CSS/index.css" type="text/css" rel="stylesheet">
     </head>
     <div id="header">
-        <h1>Inlever Opdrachten PHP</h1>
+        <h1>InleverOpdrachten PHP</h1>
     </div>
     <div id="menu">
         <h1>Dit zijn mijn Opdrachten:</h1>
