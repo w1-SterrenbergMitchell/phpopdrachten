@@ -10,92 +10,48 @@
 <head>
     <meta charset="utf-8" />
     <title><?php print "Index"; ?></title>
-    <link href="Style/index.css" type="text/css" rel="stylesheet">
+    <link href="/Style/index.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <div id="header">
-    <h1>Inlever Opdrachten PHP</h1>
+    <h1 id="h1">Inleveropdrachten PHP</h1>
 </div>
 <div id="menu">
     <h1>Dit zijn mijn Opdrachten:</h1>
     <ul>
         <li>
-            Hoofdstuk 1
+            Hoofdstuk 2
             <ul>
                 <li>
-                    <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                    <a>Opdracht 2.1</a>
                 </li>
             </ul>
         </li>
         <li>
-            Hoofdstuk 1
+            Hoofdstuk 3
             <ul>
                 <li>
-                    <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                    <a>helloworld.php</a>
                 </li>
             </ul>
         </li>
         <li>
-            Hoofdstuk 1
+            Hoofdstuk 4
             <ul>
                 <li>
-                    <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                    <a>helloworld.php</a>
                 </li>
             </ul>
         </li>
         <li>
-            Hoofdstuk 1
+            Hoofdstuk 5
             <ul>
                 <li>
-                    <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
+                    <a>helloworld.php</a>
                 </li>
             </ul>
         </li>
-        <li>
-            Hoofdstuk 1
-            <ul>
-                <li>
-                    <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            Hoofdstuk 1
-            <ul>
-                <li>
-                    <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            Hoofdstuk 1
-            <ul>
-                <li>
-                    <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            Hoofdstuk 1
-            <ul>
-                <li>
-                    <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            Hoofdstuk 1
-            <ul>
-                <li>
-                    <a href="Opdrachten/Opdracht 1/helloworld.php">helloworld.php</a>
-                </li>
-            </ul>
-        </li>
-
     </ul>
 </div>
-<p>Uitwerking</p>
-
-
 </body>
 </html>
