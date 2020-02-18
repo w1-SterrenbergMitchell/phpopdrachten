@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title><?php print "Index"; ?></title>
-    <link href="" type="text/css" rel="stylesheet">
+    <link href="/Style/index.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <div id="menu">

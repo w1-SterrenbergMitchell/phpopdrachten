@@ -15,6 +15,7 @@
 <body>
 <?php
     include "/inetpub/wwwroot/phpopdrachten/includes/header.php";
+    include "/inetpub/wwwroot/phpopdrachten/includes/menu.php"
 ?>
 
 </body>
