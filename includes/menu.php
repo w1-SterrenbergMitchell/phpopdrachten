@@ -14,10 +14,10 @@
             Hoofdstuk 2
             <ul>
                 <li>
-                    <a href="/phpopdrahten/Opdrachten/Hoofdstuk%202/helloworld.php">Opdracht 2.1</a>
+                    <a href="Opdrachten/Hoofdstuk%202/helloworld.php">Opdracht 2.1</a>
                 </li>
                 <li>
-                    <a href=<a href="/phpopdrachten/Opdrachten/Hoofdstuk%202/opdracht_2.2.php">Opdracht 2.2</a>
+                    <a href=<a href="Opdrachten/Hoofdstuk%202/opdracht_2.2.php">Opdracht 2.2</a>
                 </li>
             </ul>
         </li>
