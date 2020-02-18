@@ -25,7 +25,7 @@
             Hoofdstuk 3
             <ul>
                 <li>
-                    <a>helloworld.php</a>
+                    <a>opdracht 3</a>
                 </li>
             </ul>
         </li>
