@@ -17,5 +17,6 @@
     include "/inetpub/wwwroot/phpopdrachten/includes/header.php";
     include "/inetpub/wwwroot/phpopdrachten/includes/menu.php";
 ?>
+<h1>Welkom op Mitchell's opdrachten website voor php.</h1>
 </body>
 </html>

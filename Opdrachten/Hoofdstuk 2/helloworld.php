@@ -10,7 +10,7 @@
 <?php
     include "/inetpub/wwwroot/phpopdrachten/includes/header.php";
     include "/inetpub/wwwroot/phpopdrachten/includes/menu.php";
-    echo "hello world";
+    echo '<p>'."hello world".'</p>';
 ?>
 <br>
 <a href="../../index.php">terug</a>
