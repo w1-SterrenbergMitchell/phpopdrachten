@@ -14,7 +14,7 @@
             Hoofdstuk 2
             <ul>
                 <li>
-                    <a>Opdracht 2.1</a>
+                    <a href="../Opdrachten/Hoofdstuk%202/helloworld.php">Opdracht 2.1</a>
                 </li>
             </ul>
         </li>
