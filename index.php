@@ -14,7 +14,7 @@
 </head>
 <body>
 <?php
-    include "/inetpub/wwwroot/phpopdrachten/include's/header.php";
+    include "/inetpub/wwwroot/phpopdrachten/includes/header.php";
 ?>
 <div id="menu">
     <h1>Opdrachten:</h1>
