@@ -25,7 +25,7 @@
             Hoofdstuk 3
             <ul>
                 <li>
-                    <a>opdracht 3</a>
+                    <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%203/Opdracht_3_1.php">Opdracht 3.1</a>
                 </li>
             </ul>
         </li>
