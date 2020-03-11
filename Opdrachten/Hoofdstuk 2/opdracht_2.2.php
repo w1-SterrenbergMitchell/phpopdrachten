@@ -40,5 +40,8 @@ echo "<p>".$text1.$text11.$text4.$text5.$text3.$text10.$text7.$text10.$text8.$te
 <?php
 echo "<p>".$text1.$text11.$text12.$text8.$text15." dat".$text5.$text3.$text13.$text10.$text12.$text7.$text10.$text14.$text9."</p>";
 ?>
+<?php
+include "/inetpub/wwwroot/phpopdrachten/includes/footer.php";
+?>
 </body>
 </html>

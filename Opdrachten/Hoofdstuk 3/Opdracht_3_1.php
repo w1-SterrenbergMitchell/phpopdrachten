@@ -11,6 +11,7 @@
 include "/inetpub/wwwroot/phpopdrachten/includes/header.php";
 include "/inetpub/wwwroot/phpopdrachten/includes/menu.php";
 
+
 $evenement = "Elfstedentocht";
 $fries = "Alvestedetocht";
 $kilometers = 200;
@@ -28,5 +29,8 @@ echo $verhaal;
 ?>
 <br>
 <a href="../../index.php">terug</a>
+<?php
+include "/inetpub/wwwroot/phpopdrachten/includes/footer.php";
+?>
 </body>
 </html>

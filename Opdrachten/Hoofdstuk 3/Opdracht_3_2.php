@@ -57,5 +57,8 @@ elseif ($currentage >= 17 && $countryname == "cyprus" || $currentage >=18 && $co
     ?>
 <br>
 <a href="../../index.php">terug</a>
+<?php
+include "/inetpub/wwwroot/phpopdrachten/includes/footer.php";
+?>
 </body>
 </html>

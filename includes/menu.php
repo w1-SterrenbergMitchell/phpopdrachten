@@ -30,13 +30,19 @@
                 <li>
                     <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%203/Opdracht_3_2.php">Opdracht 3.2</a>
                 </li>
+                <li>
+                    <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%203/Opdracht_3.3.php">Opdracht 3.3</a>
+                </li>
             </ul>
         </li>
         <li>
             Hoofdstuk 4
             <ul>
                 <li>
-                    <a>helloworld.php</a>
+                    <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%204/Opdracht_4.1.php">Opdracht 4.1</a>
+                </li>
+                <li>
+                    <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%204/Opdracht_4.2.php">Opdracht 4.2</a>
                 </li>
             </ul>
         </li>

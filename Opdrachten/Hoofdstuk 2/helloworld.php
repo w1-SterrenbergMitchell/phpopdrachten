@@ -14,5 +14,8 @@
 ?>
 <br>
 <a href="../../index.php">terug</a>
+<?php
+include "/inetpub/wwwroot/phpopdrachten/includes/footer.php";
+?>
 </body>
 </html>

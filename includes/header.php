@@ -7,8 +7,8 @@
     <link href="/../phpopdrachten/Style/index.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<div id="header">
-    <h1 id="h1">Inleveropdrachten PHP</h1>
-</div>
+    <div id="header">
+        <h1 id="h1">Inleveropdrachten PHP</h1>
+    </div>
 </body>
 </html>
