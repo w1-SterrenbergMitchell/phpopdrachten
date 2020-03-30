@@ -11,10 +11,8 @@
  * Commit deze opdracht naar Github met het bericht: "PHP Lesopdracht 5.3"
  */
 
-
-
 ?>
-<form>
+<form method="post" action="lesopdracht_form_data53.php">
     <label for="firstname">Voornaam</label>
     <input type="text" name="firstname" id="firstname">
 
