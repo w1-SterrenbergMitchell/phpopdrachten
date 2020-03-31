@@ -16,25 +16,12 @@
 <?php
 include "/inetpub/wwwroot/phpopdrachten/includes/header.php";
 include "/inetpub/wwwroot/phpopdrachten/includes/menu.php";
+include "/inetpub/wwwroot/phpopdrachten/Opdrachten/Hoofdstuk 4/script.php";
 ?>
 <?php
-$courseName = "PHP";
-$teacherName = "";
-switch ($courseName) {
-    case "PHP":
-        $teacherName = "Evers";
-        break;
-    case "JavaScript":
-        $teacherName = "Spierings";
-        break;
-    case "ASP":
-        $teacherName = "Van der Meer";
-        break;
-    case "SQL":
-        $teacherName = "Spierings";
-        break;
-}
-echo "<p>"."Voor het vak ".$courseName." heb je Dhr. ".$teacherName." als docent."."</p>";
+    echo "<p>".$task2."</p>"."<br>";
+    echo "<p>".$task3."</p>"."<br>";
+    echo "<p>".$task4."</p>"."<br>";
 ?>
 <br>
 <a href="../../index.php">terug</a>
