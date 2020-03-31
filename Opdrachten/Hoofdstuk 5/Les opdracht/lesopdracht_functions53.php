@@ -1,10 +1,14 @@
 <?php
-/*************
- * Maak hier een functie genaamd "getTeacherName" die als return de juiste docent naam mee geeft.
- **************/
-
-function getTeacherName(){
-    //Zorg dat je hier de juiste docentnaam met een return terug stuurt.
-    
+$vak = $_POST["subject"];
+function getTeacherName($vak){
+    if ($vak == "js")
+    {
+        $teacher = "M. Van de Wetering";
+    }
+    elseif ($vak == "php")
+    {
+        $teacher = "R.Evers";
+    }
+    return $teacher;
 }
 ?>

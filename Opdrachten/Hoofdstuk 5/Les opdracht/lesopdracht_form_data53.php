@@ -35,23 +35,27 @@ include "/inetpub/wwwroot/phpopdrachten/Opdrachten/Hoofdstuk 5/Les opdracht/leso
     </tr>";
         }
     ?>
-    <!-- Einde: Toon dit alleen als er een tussenvoegsel is ingevuld! -->
     <tr>
         <td>Achternaam</td>
-        <td>*Toon hier de ingevulde achternaam*</td>
-    </tr>
-    <tr>
-        <td>Meer informatie</td>
-        <td>*Laad hier de functie die de naam van de juiste docent toont*</td>
-    </tr>
-</table>
-<?php
-            $voegsel = $_POST["tussenvoegsel"];
-            if (isset($voegsel))
+        <td><?php
+            $achternaam = $_POST["lastname"];
+            if (empty($achternaam))
             {
-                echo $voegsel;
+                echo "De achternaam is niet ingevuld";
             }
             else
             {
-                NULL;
+                echo $achternaam;
             }
+            ?></td>
+    </tr>
+
+    <tr>
+        <td>Meer informatie</td>
+        <td><?php
+                echo getTeacherName($vak);
+            ?></td>
+    </tr>
+
+</table>
+
