@@ -21,10 +21,10 @@ include "/inetpub/wwwroot/phpopdrachten/Opdrachten/Hoofdstuk 4/script.php";
 <?php
     echo "<p>".$task2."</p>"."<br>";
     echo "<p>".$task3."</p>"."<br>";
-    echo "<p>".$task4."</p>"."<br>";
-    echo "<p>".$task5."</p>"."<br>";
-    echo "<p>".$task6."</p>"."<br>";
-    echo "<p>".$task7."</p>"."<br>";
+    echo $task4;
+    echo $task5;
+    echo $task6;
+    echo "<p>".$task7."</p>";
 ?>
 <?php
 include "/inetpub/wwwroot/phpopdrachten/includes/footer.php";
