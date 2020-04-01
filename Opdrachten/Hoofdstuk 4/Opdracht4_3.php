@@ -26,8 +26,6 @@ include "/inetpub/wwwroot/phpopdrachten/Opdrachten/Hoofdstuk 4/script.php";
     echo "<p>".$task6."</p>"."<br>";
     echo "<p>".$task7."</p>"."<br>";
 ?>
-<br>
-<a href="../../index.php">terug</a>
 <?php
 include "/inetpub/wwwroot/phpopdrachten/includes/footer.php";
 ?>
