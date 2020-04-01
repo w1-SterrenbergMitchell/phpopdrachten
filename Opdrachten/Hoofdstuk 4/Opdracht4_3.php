@@ -2,7 +2,7 @@
 * User: Mitchell Sterrenberg
 * Date: 5/2/2020
 * Time: 2:53 PM
-* File: opdracht 4.2.php
+* File: opdracht 4.3.php
 -->
 <!DOCTYPE html>
 
@@ -15,13 +15,16 @@
 <body>
 <?php
 include "/inetpub/wwwroot/phpopdrachten/includes/header.php";
-include "/inetpub/wwwroot/phpopdrachten/includes/menu.php";
+include "/inetpub/wwwroot/phpopdrachten/includes/menu-lang.php";
 include "/inetpub/wwwroot/phpopdrachten/Opdrachten/Hoofdstuk 4/script.php";
 ?>
 <?php
     echo "<p>".$task2."</p>"."<br>";
     echo "<p>".$task3."</p>"."<br>";
     echo "<p>".$task4."</p>"."<br>";
+    echo "<p>".$task5."</p>"."<br>";
+    echo "<p>".$task6."</p>"."<br>";
+    echo "<p>".$task7."</p>"."<br>";
 ?>
 <br>
 <a href="../../index.php">terug</a>
