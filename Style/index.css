@@ -26,7 +26,7 @@ body
     background-color: #ffdcc8;
     color: black;
     width: 300px;
-    height: 999px;
+    height: 995px;
 }
 a
 {
@@ -59,7 +59,7 @@ footer
     width: 100%;
     bottom: 0;
     text-align: center;
-    height: 25px;
+    height: 30px;
     font-size: 20px;
     font-weight: 900;;
 }

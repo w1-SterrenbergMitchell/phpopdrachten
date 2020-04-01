@@ -44,6 +44,12 @@
                 <li>
                     <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%204/Opdracht_4.2.php">Opdracht 4.2</a>
                 </li>
+                <li>
+                    <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%204/Opdracht4_3.php">Opdracht 4.3</a>
+                </li>
+                <li>
+                    <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%204/Opdracht_4_4.php">Opdracht 4.4</a>
+                </li>
             </ul>
         </li>
         <li>
