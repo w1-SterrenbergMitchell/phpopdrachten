@@ -2,7 +2,7 @@
 * User: Mitchell Sterrenberg
 * Date: 5/2/2020
 * Time: 2:53 PM
-* File: opdracht 4.3.php
+* File: opdracht 4.2.php
 -->
 <!DOCTYPE html>
 
@@ -15,7 +15,7 @@
 <body>
 <?php
 include "/inetpub/wwwroot/phpopdrachten/includes/header.php";
-include "/inetpub/wwwroot/phpopdrachten/includes/menu-lang.php";
+include "/inetpub/wwwroot/phpopdrachten/includes/menu.php";
 include "/inetpub/wwwroot/phpopdrachten/Opdrachten/Hoofdstuk 4/script.php";
 ?>
 <?php
