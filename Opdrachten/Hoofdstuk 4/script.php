@@ -10,7 +10,7 @@ while($counter > 0) {
 }
 
 $task3 = "Lancering in: ";
-for ($counter2 = 19; $counter2 > 0; $counter2 =$counter2 - 1)
+for ($counter2 = 19; $counter2 >= 0; $counter2 = $counter2 - 1)
 {
     $task3 = $task3 . $counter2 . ",";
 }
@@ -30,7 +30,6 @@ $message3 = $task4;
 //voor de gebruiksvriendelijkheid van de website laat ik ze in een p staan
 // ik begrijp dat ik de html tag's erbij kan zetten
 $task5 = "";
-
 
 for($counter1 = 1; $counter1 <= 10; $counter1++)
 {

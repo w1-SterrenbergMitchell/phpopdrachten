@@ -6,7 +6,7 @@
     <title><?php print "Index"; ?></title>
     <link href="/../phpopdrachten/Style/index.css" type="text/css" rel="stylesheet">
     <?php
-    include "/inetpub/wwwroot/phpopdrachten/includes/variabelen.php"
+    include "/inetpub/wwwroot/phpopdrachten/includes/variabelen.php";
     ?>
 </head>
     <body>
