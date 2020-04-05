@@ -28,7 +28,7 @@ else($ambulancecoming == true)
         $driveon = false
     };
 
-if($driveon == true)
+if($driveon == true && $ambulancecoming = "false")
     {
         echo ("<p>"."u mag doorrijden"."</p>"."<br>");
     }

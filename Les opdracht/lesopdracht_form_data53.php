@@ -1,7 +1,7 @@
 <?php
 //Haal de formulier gegevens op
 //include hieronder "lesopdracht_function.php" die de naam van de docent terug geeft.
-include "/inetpub/wwwroot/phpopdrachten/Opdrachten/Hoofdstuk 5/Les opdracht/lesopdracht_functions53.php"
+include "/inetpub/wwwroot/phpopdrachten/Les opdracht/lesopdracht_functions53.php"
 ?>
 <table>
     <tr>

@@ -13,6 +13,7 @@
 
 ?>
 <form method="post" action="lesopdracht_form_data53.php">
+
     <label for="firstname">Voornaam</label>
     <input type="text" name="firstname" id="firstname">
 
@@ -22,7 +23,8 @@
     <label for="lastname">Achternaam</label>
     <input type="text" name="lastname" id="lastname">
 
-    <select name="subject">
+    <label for="subject">Vak</label>
+    <select name="subject" id="subject">
         <option value="php">PHP</option>
         <option value="js">Javascript</option>
     </select>
