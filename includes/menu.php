@@ -56,7 +56,10 @@
             Hoofdstuk 5
             <ul>
                 <li>
-                    <a>helloworld.php</a>
+                    <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%205/Opdracht%205.3/opdracht5.3.php">Opdracht 5.3</a>
+                </li>
+                <li>
+                    <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%205/Opdracht_5_4.php">Opdracht 5.4</a>
                 </li>
             </ul>
         </li>
