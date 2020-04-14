@@ -56,6 +56,12 @@
             Hoofdstuk 5
             <ul>
                 <li>
+                    <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%205/opdracht_5_1.php">Opdracht 5.1</a>
+                </li>
+                <li>
+                    <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%205/opdracht_5_2.php">Opdracht 5.2</a>
+                </li>
+                <li>
                     <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%205/Opdracht%205.3/opdracht5.3.php">Opdracht 5.3</a>
                 </li>
                 <li>

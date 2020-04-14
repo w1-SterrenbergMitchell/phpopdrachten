@@ -7,7 +7,7 @@ include "./functions.php";
 <html lang="en">
 <head>
     <title></title>
-    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="/Style/index.css">
 </head>
 <div id="main">
     <table>

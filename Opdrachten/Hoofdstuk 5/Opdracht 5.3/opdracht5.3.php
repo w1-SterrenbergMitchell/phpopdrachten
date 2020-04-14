@@ -6,7 +6,7 @@ include "/inetpub/wwwroot/phpopdrachten/includes/menu.php";
 <html lang="en">
 <head>
     <title></title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/Style/index.css">
 </head>
 <div id="main">
     <form action="./form.php" method="post">
