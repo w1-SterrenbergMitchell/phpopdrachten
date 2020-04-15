@@ -54,17 +54,17 @@ include "/inetpub/wwwroot/phpopdrachten/includes/menu.php";
                     <label for="leerjaar1">Leerjaar</label>
                 </td>
                 <td>
-                    <input id="leerjaar1" name="leerjaar2" type="radio" value="1e leerjaar"><label for="leerjaar1">1e leerjaar</label><br>
+                    <input id="leerjaar1" name="leerjaar" type="radio" value="1e leerjaar"><label for="leerjaar1">1e leerjaar</label><br>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input id="leerjaar2" name="leerjaar2" type="radio" value="2e leerjaar"><label for="leerjaar2">2e leerjaar</label><br>
+                    <input id="leerjaar2" name="leerjaar" type="radio" value="2e leerjaar"><label for="leerjaar2">2e leerjaar</label><br>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input id="leerjaar3" name="leerjaar3" type="radio" value="3e leerjaar"><label for="leerjaar3">3e leerjaar</label><br>
+                    <input id="leerjaar3" name="leerjaar" type="radio" value="3e leerjaar"><label for="leerjaar3">3e leerjaar</label><br>
                 </td>
             </tr>
         </table>

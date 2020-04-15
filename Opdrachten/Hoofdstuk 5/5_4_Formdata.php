@@ -16,20 +16,20 @@ include "/inetpub/wwwroot/phpopdrachten/includes/menu.php";
 <form method="post" action="5_4_Formdata.php">
     <p>Komt er een ambulance aan?</p><br>
     <div class="54">
-        <input type="radio" name="ja" id="ja">
+        <input type="radio" name="ambulancecoming" value="ja" id="ja">
         <label for="ja">Ja</label>
-        <input type="radio" name="nee" id="nee">
+        <input type="radio" name="ambulancecoming" value="nee" id="nee">
         <label for="nee">Nee</label>
     </div>
     <br>
 
     <p>Stoplicht kleur?</p><br>
     <div class="54">
-        <input type="radio" name="Rood" id="Rood">
+        <input type="radio" name="trafficlightcolor" value="Rood" id="Rood">
         <label for="Rood">Rood</label>
-        <input type="radio" name="Groen" id="Groen">
+        <input type="radio" name="trafficlightcolor" value="Groen" id="Groen">
         <label for="Groen">Groen</label>
-        <input type="radio" name="Oranje" id="Oranje">
+        <input type="radio" name="trafficlightcolor" value="Oranje" id="Oranje">
         <label for="Oranje">Oranje</label>
     </div>
     <br>
@@ -39,24 +39,17 @@ include "/inetpub/wwwroot/phpopdrachten/includes/menu.php";
     De output is:
 </p>
 <?php
-            $trafficlightcolor = "";
-            $ambulancecoming = false;
-            $driveon = true;
+            $trafficlightcolor = $_POST ["trafficlightcolor"];
+            $ambulancecoming = $_POST["ambulancecoming"];
+            $driveon = "";
             $tekstambulance = "";
-            if (isset($_POST["ja"])) {
+            if ($ambulancecoming == "ja") {
                 $ambulancecoming = true;
-            } elseif (isset($_POST["nee"])) {
+            } elseif ($ambulancecoming == "nee") {
                 $ambulancecoming = false;
             }
 
-            if (isset($_POST["Groen"])) {
-                $trafficlightcolor = "groen";
-            } elseif (isset($_POST["Oranje"])) {
-                $trafficlightcolor = "oranje";
-            } elseif (isset($_POST["Rood"])) {
-                $trafficlightcolor = "rood";
-            }
-            if ($trafficlightcolor == "groen" && $ambulancecoming == false)
+            if ($trafficlightcolor == "Groen" && $ambulancecoming == false)
             {
                 $driveon = "U mag doorijden.";
             }

@@ -14,9 +14,7 @@ $naam = $_GET["naam"];
 $snummer = $_GET["snummer"];
 $datum = $_GET["datum"];
 $reden = $_GET["reden"];
-$leerjaar1 = $_GET["leerjaar1"];
-$leerjaar2 = $_GET["leerjaar2"];
-$leerjaar3 = $_GET["leerjaar3"];
+$leerjaar = $_GET["leerjaar"];
 $aanmelden = $_GET["aanmelden"];
 $verwijder = $_GET["verwijder"];
 $textbox = $_GET["textbox"];
@@ -68,17 +66,9 @@ $textbox = $_GET["textbox"];
         </td>
         <td>
             <?php
-            if (isset($leerjaar1))
+            if (isset($leerjaar))
             {
-                echo $leerjaar1;
-            }
-            elseif (isset($leerjaar2))
-            {
-                echo $leerjaar2;
-            }
-            elseif (isset($leerjaar3))
-            {
-                echo $leerjaar3;
+                echo $leerjaar;
             }
             ?>
         </td>

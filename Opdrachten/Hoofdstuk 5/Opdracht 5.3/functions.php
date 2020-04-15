@@ -1,6 +1,6 @@
 <?php
 function echoKans() {
-    echo ($_POST['infected'] * ($_POST['citizens']/100000) / $_POST['citizens']) * 100;
+    echo ($_POST['infected'] * ($_POST['citizens']/100000) / $_POST['citizens']) * 100 ."%";
 }
 
 function getKans1Op() {
