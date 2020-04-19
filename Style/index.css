@@ -74,3 +74,11 @@ input
     padding: 0;
     max-width: 1200px;
 }
+table
+{
+    background-color: rgba(255,255,255,0.7);
+}
+#logininfo
+{
+    display: none;
+}

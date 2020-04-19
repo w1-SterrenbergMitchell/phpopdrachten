@@ -69,6 +69,15 @@
                 </li>
             </ul>
         </li>
+        <li>
+            Eindopdracht
+            <ul>
+                <li>
+                    <a href="/../phpopdrachten/Opdrachten/Eindopdracht/login.php">Eindopdracht</a>
+                </li>
+
+            </ul>
+        </li>
     </ul>
 </div>
 </body>
