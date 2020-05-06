@@ -1,3 +1,13 @@
+<?php
+session_start();
+if (isset($_SESSION['username'])) {
+$bezoeker = $_SESSION['username'] . "&nbsp; <a class='footer'
+                                               href='/../phpopdrachten/Opdrachten/Hoofdstuk%206/Opdracht%206.1/loguit.php'>Loguit</a>";
+} else {
+$bezoeker = "onbekende bezoeker" . "&nbsp; <a class='footer'
+                                              href='/../phpopdrachten/Opdrachten/Hoofdstuk%206/Opdracht%206.1/opdracht61.php'>Login</a>";
+}
+?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -12,7 +22,7 @@
     <body>
         <footer>
             <?php
-             echo "&copy ".$year." ".$name;
+             echo "&copy ".$year." ".$name ." ".$bezoeker;
             ?>
         </footer>
     </body>
