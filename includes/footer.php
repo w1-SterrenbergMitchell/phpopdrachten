@@ -1,5 +1,4 @@
 <?php
-session_start();
 if (isset($_SESSION['username'])) {
 $bezoeker = $_SESSION['username'] . "&nbsp; <a class='footer'
                                                href='/../phpopdrachten/Opdrachten/Hoofdstuk%206/Opdracht%206.1/loguit.php'>Loguit</a>";

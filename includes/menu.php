@@ -75,7 +75,25 @@
                 <li>
                     <a href="/../phpopdrachten/Opdrachten/Eindopdracht/login.php">Eindopdracht</a>
                 </li>
-
+            </ul>
+        </li>
+        <li>
+            Hoofdstuk 6
+            <ul>
+                <li>
+                    <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%206/Opdracht%206.1/opdracht61.php">opdracht6.1</a>
+                </li>
+                <li>
+                    <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%206/Opdracht%206.2/opdracht62.php">opdracht6.2</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            Hoofdstuk 7
+            <ul>
+                <li>
+                    <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%207/opdracht%207.1.php">Opdracht 7.1</a>
+                </li>
             </ul>
         </li>
     </ul>
