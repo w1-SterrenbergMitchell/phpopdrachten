@@ -63,36 +63,6 @@ while ($row = $result->fetch(PDO::FETCH_ASSOC))
     $aJokes[] = $row;
 }
 
-// Tonen van de inhoud van aJokes
-foreach ($aJokes as $item)
-{
-    echo '<tr>'.'<td>'.$item['id'].'</td>';
-    echo '<td>'.$item['joketext'].'</td>';
-    echo '<td>'.$item['jokeclou'].'</td>';
-    echo '<td>'.$item['jokedate'].'</td>'.'</tr>';
-}
-
-
-try
-{
-    // Query schrijven
-    $sql = "SELECT * FROM joke";
-    // Query uitvoeren
-    $result = $pdo->query($sql);
-}
-catch (PDOException $e)
-{
-    echo 'Er is een probleem met ophalen van jokes: ' . $e->getMessage();
-    exit();
-}
-// Lege Array aanmaken voor de results
-$aJokes = array();
-// Door de results heen loopen via een while
-while ($row = $result->fetch(PDO::FETCH_ASSOC))
-{
-    // Result wegschrijven in de $aJokes array
-    $aJokes[] = $row;
-}
 
 // Tonen van de inhoud van aJokes
 foreach ($aJokes as $item)
@@ -104,9 +74,6 @@ foreach ($aJokes as $item)
 }
 ?>
 </table>
-<p>
-    in de opdracht stond er dat ik in mijn querry moest schrijven dat ik alleen jokes moest selecteren die voor vandaag waren ik wist niet zeker of dit in de sql manager moest of hierin dus vandaar beide opties.
-</p>
 <br>
 <a href="../../index.php">terug</a>
 <?php
