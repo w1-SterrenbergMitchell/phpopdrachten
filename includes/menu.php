@@ -100,6 +100,9 @@
                 <li>
                     <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%207/opdracht%207.3.php">Opdracht 7.3</a>
                 </li>
+                <li>
+                    <a href="/../phpopdrachten/Opdrachten/Hoofdstuk%207/insert.php">Opdracht 7.4</a>
+                </li>
             </ul>
         </li>
     </ul>
